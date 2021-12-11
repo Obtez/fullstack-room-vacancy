@@ -1,0 +1,30 @@
+@import "../../../styles/variables";
+
+.newRoom {
+  .content {
+    margin: 0 6.25%;
+
+     h2 {
+      margin-top: 1.313rem;
+    }
+
+    form {
+      input {
+        border: none;
+        border-radius: 3px;
+        padding: .313rem .5rem;
+        font-size: 1rem;
+        background-color: $pale-primary-text;
+        outline: none;
+        font-family: "Outfit", sans-serif;
+      }
+    }
+
+    button {
+      margin-top: .875rem;
+      padding: .5rem 2.063rem;
+      font-size: 1rem;
+      font-weight: 500;
+    }
+  }
+}

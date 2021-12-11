@@ -1,0 +1,18 @@
+@import "../../styles/variables";
+
+.toggleItem {
+  background-color: $bg-mid;
+  border-radius: 5px;
+
+  label {
+    margin: .25rem .5rem;
+    display: block;
+    font-size: 1rem;
+    color: $light;
+  }
+
+  .toggleBody {
+    padding: .5rem;
+    background-color: $bg-light;
+  }
+}

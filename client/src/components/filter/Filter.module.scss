@@ -1,0 +1,30 @@
+@import "../../styles/variables";
+
+.filter {
+  padding: .688rem 6.25vw;
+  background-color: $bg-light;
+  font-size: 1rem;
+  font-weight: 300;
+
+  display: flex;
+  align-items: center;
+
+  input[type=checkbox] {
+    height: .688rem;
+    width: .688rem;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -o-appearance: none;
+    appearance: none;
+    border-radius: 2px;
+    border: none;
+    outline: none;
+    background-color: $bg-light-pale;
+    cursor: pointer;
+    margin-right: .313rem;
+
+    &:checked {
+      background-color: $success;
+    }
+  }
+}

@@ -1,0 +1,77 @@
+@import "../../styles/variables";
+
+.register {
+  min-height: 100vh;
+  display: flex;
+  flex-flow: column nowrap;
+
+  h1 {
+    text-align: center;
+    color: $pale-primary-heading;
+    font-size: 1.563rem;
+    font-weight: 400;
+  }
+
+  form {
+    width: 100%;
+    padding: 0 8.125%;
+
+    label {
+      display: block;
+      margin-top: .5rem;
+      margin-bottom: 2px;
+      font-weight: 300;
+    }
+
+    input {
+      width: 100%;
+      border: none;
+      border-radius: 3px;
+      padding: .313rem .5rem;
+      font-size: 1rem;
+      background-color: $pale-primary-text;
+      outline: none;
+    }
+
+    button {
+      display: block;
+      width: 100%;
+      margin-top: 1.5rem;
+      font-size: 1rem;
+      font-weight: 700;
+      padding: 0.5rem 0;
+      color: $light;
+      background-color: $accent;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+
+      &:hover {
+        background-color: $btn-hover;
+      }
+    }
+  }
+
+  & > main > p {
+    margin-top: 2rem;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 300;
+    color: $pale-primary-heading;
+  }
+
+  a {
+    display: block;
+    width: 100%;
+    text-align: center;
+    color: $pale-primary-text;
+    font-weight: 500;
+  }
+
+  main {
+    flex-grow: 1;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+  }
+}

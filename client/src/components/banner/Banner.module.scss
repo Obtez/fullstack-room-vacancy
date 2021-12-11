@@ -1,0 +1,13 @@
+@import "../../styles/variables";
+
+.banner {
+  padding: .313rem 6.25vw;
+  background-color: $bg-light;
+  font-size: 1rem;
+  font-weight: 300;
+
+  display: flex;
+  align-items: center;
+
+  text-decoration: underline;
+}

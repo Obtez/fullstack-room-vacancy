@@ -1,0 +1,42 @@
+@import "../../styles/_variables";
+
+.scheduled {
+  min-height: 100vh;
+  display: flex;
+  flex-flow: column nowrap;
+
+  .flexContainer {
+    flex-grow: 1;
+    display: flex;
+    flex-flow: column nowrap;
+
+    justify-content: center;
+    align-items: center;
+
+    .error {
+      font-size: 1.125rem;
+      font-weight: 500;
+      margin-bottom: .938rem;
+    }
+
+    a {
+      display: inline-block;
+      width: max-content;
+      color: $light;
+      padding: .438rem 1.188rem;
+      background-color: $accent;
+      border: none;
+      border-radius: 5px;
+      text-decoration: none;
+      font-size: 1rem;
+      font-weight: 700;
+      cursor: pointer;
+
+       &:hover {
+        background-color: $btn-hover;
+      }
+    }
+  }
+
+  
+}

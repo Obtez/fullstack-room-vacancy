@@ -1,0 +1,49 @@
+@import "../../styles/variables";
+
+.headerLarge {
+  background-color: $accent;
+  padding: .688rem 7.8125%;
+  font-family: "Roboto Slab", serif;
+
+  &Top {
+    width: max-content;
+    margin-left: auto;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding-right: 6.40624%;
+
+    border-bottom: 2px solid $light;
+
+    font-size: 1.89rem;
+
+    img {
+      width: 1.899rem;
+      height: 2.875rem;
+      margin-left: 1.136rem;
+    }
+  }
+}
+
+ .polygon {
+  border: none;
+  height: 14px;
+  width: calc(13.1% + 1.899rem);
+
+  margin-left: auto;
+  background-color: $accent;
+  clip-path: polygon(0% 0%, 100% 0%, 0% 100%);
+  border-bottom-left-radius: 3px;
+  position: absolute;
+  right: 0;
+  z-index: 10;
+}
+
+.banner {
+  padding: 0.563rem 7.5%;
+  font-weight: 300;
+  font-size: 1rem;
+  color: $pale-primary-text;
+  background-color: $bg-banner;
+}

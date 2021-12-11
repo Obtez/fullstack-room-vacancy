@@ -1,0 +1,71 @@
+@import "../../styles/variables";
+
+.mobileMenuContainer {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+
+  background-color: $bg-dark;
+}
+
+.flexContainer {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.mobileMenu {
+  width: 100%;
+  text-align: left;
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 10;
+  ul {
+    text-align: left;
+    flex-grow: 1;
+    display: flex;
+    flex-flow: column nowrap;
+
+    justify-content: center;
+
+    padding-left: 7.18749vw;
+
+    list-style-type: none;
+
+    li {
+      margin-bottom: .75rem;
+      z-index: 12;
+    }
+
+     a {
+      text-align: start;
+      font-size: 1.375rem;
+      font-weight: 300;
+      color: $light;
+      text-decoration: none;
+    }
+  }
+}
+
+.logoutLink {
+  margin-bottom: 1.5rem;
+  margin-left: 7.18749vw;
+  color: $light;
+  font-weight: 500;
+  font-size: 1rem;
+  z-index: 10;
+}
+
+.menuToggle {
+  color: $pale-primary-heading;
+  font-size: 1rem;
+  position: fixed;
+  top: .365rem;
+  right: .365rem;
+  z-index: 11;
+}

@@ -1,0 +1,39 @@
+@import "../../styles/variables";
+
+.header {
+  padding: .75rem 6.25%;
+  font-size: 1.5rem;
+  color: $light;
+  background-color: $accent;
+  font-family: "Roboto Slab", serif;
+
+  div {
+    display: flex;
+    flex-flow: row nowrap;
+    padding-right: 10%;
+    border-bottom: 1px solid $light;
+    font-weight: 300;
+
+    span {
+      font-weight: 500;
+    }
+
+    img {
+      margin-left: auto;
+      margin-bottom: -.26rem;
+    }
+  }
+}
+
+.polygon {
+  border: none;
+  height: 14px;
+  width: calc(13.1% + 21.5px);
+  position: absolute;
+  right: 0;
+  margin-left: auto;
+  background-color: $accent;
+  clip-path: polygon(0% 0%, 100% 0%, 0% 100%);
+  border-bottom-left-radius: 3px;
+}
+
